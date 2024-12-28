@@ -8,3 +8,18 @@ Gradient_Realm is a Python-based project that implements various regression tech
 - Mini-batch Gradient Descent : Combines the efficiency of Batch and Stochastic methods by processing small random batches of data.
 
 Implemented both via scikit-learn and manually.
+Implementation with visualization & animations.
+
+## Used Libraries :-
+1. Batch Gradient Descent:
+- Custom class: BatchGradientDescent
+- Scikit-learn: Implemented via LinearRegression.
+
+2. Stochastic Gradient Descent (SGD):
+- Custom class: StochasticGradientDescent
+- Scikit-learn: Implemented via SGDRegressor.
+
+3. Mini-batch Gradient Descent:
+- Custom class: MiniBatchGradientDescent
+- Scikit-learn: Custom implementation using batched inputs.
+
